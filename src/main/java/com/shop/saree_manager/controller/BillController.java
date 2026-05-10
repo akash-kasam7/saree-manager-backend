@@ -17,7 +17,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/bills")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://saree-manager-ui.vercel.app", allowCredentials = "true")
 public class BillController {
 
     private final OcrService ocrService;
