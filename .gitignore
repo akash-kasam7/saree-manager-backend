@@ -35,7 +35,7 @@ build/
 *.class
 
 # Ignore sensitive settings if you create a separate local-only file
-application-local.properties
+application.properties
 google-credentials.json
 # Common IDE files
 .idea/
